@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: power-output-estimator
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /health

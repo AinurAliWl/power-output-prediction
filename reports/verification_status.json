@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-11-14T15:19:06.370208+00:00",
+  "training_script": "Executed successfully; five candidates, 16 tuned parameter combinations, 3-fold CV",
+  "notebook": "All 10 code cells executed successfully; no error outputs",
+  "tests": {
+    "passed": 9,
+    "warnings": 1,
+    "warning": "Starlette TestClient reports a deprecated AnyIO BlockingPortal alias"
+  },
+  "http": "Real local Uvicorn service; two repeat predictions and incomplete-input check passed",
+  "browser_screenshot": "Not captured: Chromium could not open its local IPC socket in this runtime",
+  "http_evidence_image": "reports/http-verification.png is a rendered real HTTP verification log, not a browser screenshot",
+  "docker": "Not available in preparation runtime; build/run not verified",
+  "cloud": "Configuration and instructions supplied; not deployed"
+}

@@ -1,0 +1,25 @@
+{
+  "base_url": "http://127.0.0.1:9696",
+  "health": {
+    "status": "ok",
+    "model": "hist_gradient_boosting",
+    "model_sha256": "d676a5a6cba59c3da25cda811c3b0cd87d42ee4e450ee9dc6316e88cd3ef8b38"
+  },
+  "request": {
+    "AT": 19.0,
+    "V": 54.0,
+    "AP": 1013.0,
+    "RH": 73.0
+  },
+  "prediction": {
+    "net_output_mw": 454.878,
+    "model": "hist_gradient_boosting",
+    "outside_training_range": false,
+    "warnings": []
+  },
+  "deterministic_repeat": true,
+  "incomplete_request_status": 422,
+  "verification_context": "Real local Uvicorn HTTP service; not Docker or cloud",
+  "docker_verified": false,
+  "cloud_verified": false
+}

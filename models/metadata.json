@@ -1,0 +1,46 @@
+{
+  "model_name": "hist_gradient_boosting",
+  "features": [
+    "AT",
+    "V",
+    "AP",
+    "RH"
+  ],
+  "target": "PE",
+  "output_unit": "MW",
+  "python": "3.11.15",
+  "scikit_learn": "1.7.2",
+  "numpy": "2.3.3",
+  "pandas": "2.3.2",
+  "model_sha256": "d676a5a6cba59c3da25cda811c3b0cd87d42ee4e450ee9dc6316e88cd3ef8b38",
+  "data_csv_sha256": "51848da3c8b8c29f709f159fad95443eaa8ff2e95c721a00bba582048cd207e4",
+  "training_rows": 7621,
+  "evaluation": {
+    "rmse_mw": 3.262464204188433,
+    "mae_mw": 2.2693955434662954,
+    "r2": 0.9637839647605674
+  },
+  "training_ranges": {
+    "AT": {
+      "min": 1.81,
+      "max": 37.11
+    },
+    "V": {
+      "min": 25.36,
+      "max": 81.56
+    },
+    "AP": {
+      "min": 992.89,
+      "max": 1033.3
+    },
+    "RH": {
+      "min": 26.3,
+      "max": 100.16
+    }
+  },
+  "best_parameters": {
+    "model__l2_regularization": 0.0,
+    "model__learning_rate": 0.1,
+    "model__max_leaf_nodes": 31
+  }
+}

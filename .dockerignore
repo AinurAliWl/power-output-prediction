@@ -1,0 +1,11 @@
+.venv
+.git
+__pycache__
+.pytest_cache
+.ipynb_checkpoints
+*.log
+data
+notebook.ipynb
+reports
+tests
+START_HERE_RU.md

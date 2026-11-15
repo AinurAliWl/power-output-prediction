@@ -1,0 +1,13 @@
+{
+  "dataset": "Combined Cycle Power Plant",
+  "source_url": "https://archive.ics.uci.edu/static/public/294/combined+cycle+power+plant.zip",
+  "source_page": "https://archive.ics.uci.edu/dataset/294/combined+cycle+power+plant",
+  "doi": "10.24432/C5002N",
+  "creators": "Pinar Tufekci and Heysem Kaya",
+  "license": "CC BY 4.0",
+  "source_archive_sha256": "cc7b2a4977c0a44e8221c91d9a7e5746b3c68186cff7e5c61c70af6432b98c7a",
+  "worksheet": "Sheet1",
+  "csv_sha256": "51848da3c8b8c29f709f159fad95443eaa8ff2e95c721a00bba582048cd207e4",
+  "rows_before_deduplication": 9568,
+  "conversion": "pandas read_excel Sheet1 then to_csv(index=False, lineterminator='\\n')"
+}
